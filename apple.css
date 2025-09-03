@@ -1,25 +1,3 @@
-/* mobile style */
-@media (max-width: 765px) {
-  body {
-    background-color: white;
-  }
-}
-
-/* Tablet style */
-@media (min-width: 768px) {
-  .background-image1 {
-    background-image: url(/Figure.png);
-  }
-}
-
-/* Desktop style */
-
-@media (min-width: 1024px) {
-  body {
-    background-color: black;
-  }
-}
-
 .helvetica {
   font-family: "Helvetica Neue", sans-serif;
 }
@@ -78,6 +56,12 @@
   flex-direction: column;
 }
 
+.grids {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
 .thin-font {
   font-weight: lighter;
 }
@@ -115,6 +99,15 @@
   color: #0071e3;
 }
 
+.fcolor-black {
+  color: black;
+}
+
+.rainbow-text-align {
+  display: flex;
+  align-items: end;
+}
+
 .rainbow-text {
   background: linear-gradient(
     90deg,
@@ -126,9 +119,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  top: 450px;
-  right: 110px;
-  position: absolute;
 }
 
 .fsize18px-fweight400 {
@@ -202,7 +192,6 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  position: relative;
 }
 
 .background-image1 {
@@ -216,6 +205,7 @@
 
 .background-image3 {
   background-image: url(/3rd-image.png);
+  display: flex;
 }
 
 .background-image4 {
@@ -377,6 +367,7 @@
 .image-section {
   display: flex;
   gap: 6px;
+  justify-content: space-between;
   width: fit-content;
 }
 
@@ -422,6 +413,8 @@
 .play-button-alignment {
   display: flex;
   justify-content: end;
+  padding-right: 16px;
+  padding-bottom: 16px;
 }
 
 .play-button {
@@ -455,7 +448,6 @@
   .grids {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 12px;
   }
 
   .link-sizing {
@@ -479,6 +471,17 @@
   .inside-link {
     display: flex;
     align-items: center;
+    padding-bottom: 21px;
+    padding-left: 30px;
+    gap: 18px;
+  }
+
+  .background-gradient {
+    background: radial-gradient(
+      33% 100% at 0% 100%,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
   }
 
   .stream-now {
@@ -488,6 +491,14 @@
     opacity: 0.999;
     background: #f5f5f7;
     padding: 8px 14px 8px 15px;
+  }
+
+  .opacity {
+    opacity: 0.6;
+    background: lightgray 0% 0% / 100.14535188674927px 100.14535188674927px
+      repeat;
+    height: 100%;
+    width: 100%;
   }
 
   .link-image3 {
@@ -545,11 +556,15 @@
 
   .fsize17px-fweight700 {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
-    color: white;
   }
 
   .bold {
     font-style: bold;
+  }
+
+  .text-width {
+    width: 401px;
+    display: flex;
   }
 
   .NBA-box {
@@ -557,5 +572,30 @@
     height: 191px;
     background-image: url(/Tablet-NBA.jpg);
     background-size: cover;
+  }
+
+  .fcolor-white1 {
+    color: white;
+  }
+}
+
+@media (min-width: 1024px) {
+  .background-image1 {
+  }
+
+  .overlay {
+    height: 44px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay-text {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .right-overlay {
+    gap: 24px;
   }
 }
