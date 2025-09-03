@@ -1,11 +1,18 @@
-.helvetica {
-  font-family: "Helvetica Neue", sans-serif;
-}
-
 .body {
   margin: 0;
   padding: 0;
   background-color: white;
+}
+
+.overlay-text {
+  display: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-text {
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .right-overlay {
@@ -32,7 +39,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
+}
+
+.rainbow-text-align {
+  display: flex;
+  justify-content: end;
 }
 
 .flex-center {
@@ -62,11 +74,13 @@
   flex-direction: column;
 }
 
-.thin-font {
-  font-weight: lighter;
+.heading1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: bold;
 }
 
-.fsize30px-fweight700-bold {
+.heading1-tablet-grid {
   font-size: 30px;
   font-weight: 700;
   font-style: bold;
@@ -77,7 +91,7 @@
   font-weight: 400;
 }
 
-.fsize13px-fweight700-bold {
+.series {
   font-size: 13px;
   font-weight: 700;
   font-style: bold;
@@ -103,11 +117,6 @@
   color: black;
 }
 
-.rainbow-text-align {
-  display: flex;
-  align-items: end;
-}
-
 .rainbow-text {
   background: linear-gradient(
     90deg,
@@ -119,20 +128,16 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.fsize18px-fweight400 {
+.description {
   font-size: 18px;
   font-weight: 400;
 }
 
-.fsize12px-fweight700-bold {
-  font-size: 12px;
-  font-weight: 700;
-  font-style: bold;
-}
-
-.fsize28px-fweight700-bold {
+.heading2-mobile-tablet-grid {
   font-size: 28px;
   font-weight: 700;
   font-style: bold;
@@ -141,6 +146,11 @@
 .learnmore-and-buy-button {
   display: flex;
   gap: 12px;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .learnmore-circle-blue {
@@ -206,6 +216,10 @@
 .background-image3 {
   background-image: url(/3rd-image.png);
   display: flex;
+}
+
+.desktop-image3-contents {
+  display: none;
 }
 
 .background-image4 {
@@ -275,6 +289,10 @@
 
 .padding-bottom-46px {
   padding-bottom: 46px;
+}
+
+.padding-bottom-36px {
+  padding-bottom: 36px;
 }
 
 .padding-bottom-54px {
@@ -425,6 +443,44 @@
 }
 
 @media (min-width: 768px) {
+  .heading1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+
+  .button-text {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .description-tablet-grid {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .button-text-tablet-grid {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .rainbow-text {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .footer-text {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .image-sizing {
+    height: 650px;
+  }
+
   .background-image1 {
     background-image: url(/Tablet-1stimage.png);
   }
@@ -479,7 +535,7 @@
   .background-gradient {
     background: radial-gradient(
       33% 100% at 0% 100%,
-      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.9) 0%,
       rgba(255, 255, 255, 0) 100%
     );
   }
@@ -554,17 +610,19 @@
     box-sizing: border-box;
   }
 
-  .fsize17px-fweight700 {
+  .link-text {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    font-size: 17px;
+    font-weight: 400;
   }
 
   .bold {
-    font-style: bold;
+    font-weight: bold;
   }
 
   .text-width {
     width: 401px;
-    display: flex;
+    display: inline;
   }
 
   .NBA-box {
@@ -580,7 +638,32 @@
 }
 
 @media (min-width: 1024px) {
-  .background-image1 {
+  .body {
+    background-color: red;
+  }
+
+  .fsize52px .background-image1 {
+    background-image: url(/Desktop-1stimage.png);
+  }
+
+  .background-image2 {
+    background-image: url(/Desktop-2ndimage.png);
+  }
+
+  .background-image3 {
+    background-image: url(/Desktop-3rdimage.png);
+  }
+
+  .remove-image {
+    display: none;
+  }
+
+  .image-sizing {
+    height: 692px;
+  }
+
+  .desktop-image3-contents {
+    display: flex;
   }
 
   .overlay {
@@ -590,9 +673,14 @@
     align-items: center;
   }
 
+  .display {
+    display: none;
+  }
+
   .overlay-text {
     font-size: 12px;
     font-weight: 400;
+    display: flex;
   }
 
   .right-overlay {
