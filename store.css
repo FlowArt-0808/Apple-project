@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+}
+
+.all {
+  display: flex;
+  width: 1920px;
+  padding-bottom: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  background-color: #f5f5f7;
+  overflow: hidden;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.customer-support-text-subpart2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.top-section-part2 {
+  display: flex;
+  padding: 0 140px;
+  justify-content: space-between;
+}
+
+.header-menu {
+  height: 44px;
+  width: 100%;
+  gap: 33px;
+  background: rgba(245, 245, 247, 0.8);
+  display: flex;
+}
+
+.apple-logo {
+  width: 13px;
+  height: 16px;
+}
+
+.search-icon {
+  width: 14.075px;
+  height: 14.076px;
+}
+
+.shopping-icon {
+  width: 12.94px;
+  height: 14.913px;
+}
+
+.menu-text {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.deal-section {
+  padding: 20px 0;
+  height: 20px;
+  background-color: white;
+}
+
+.background-blur-section {
+  width: 100%;
+  height: 75px;
+  background: #f5f5f7;
+  display: flex;
+}
+
+.heading1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #6e6e73;
+}
+
+.heading-gap {
+  gap: 32px;
+  display: flex;
+}
+
+.customer-support {
+  display: flex;
+  gap: 16px;
+}
+
+.customer-support-image {
+  height: 35px;
+  width: 35px;
+}
+
+.customer-support-and-category-text {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.customer-support-text-part {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.customer-support-text-subpart {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.link-text {
+  color: #06c;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.blue-right-image {
+  width: 6px;
+  height: 14px;
+}
+
+.heading1-gradient-color {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading2 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.heading2-gap {
+  gap: 4px;
+}
+
+.deal-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+
+.category-pictures {
+  display: flex;
+  gap: 28px;
+  padding: 0px 140px;
+}
+
+.category-image-size {
+  height: 78px;
+  width: 100%;
+}
+
+.category-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 8px;
+}
+
+.the-rest-of-them {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.section-styling {
+  display: flex;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.list-items {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
+
+.list-scrolls {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.list-item-image-size {
+  height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  flex: 0 0 480px;
+}
+
+.list-item-descriptions-3-column {
+  display: flex;
+  flex-direction: column;
+  width: 322px;
+  padding: 30px 128px 382px 30px;
+  gap: 9px;
+}
+
+.highlighted-text-alignment {
+  display: flex;
+}
+
+.red-brown-text {
+  color: #b64400;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.symbol-size {
+  width: 6px;
+  height: 9px;
+  color: #b64400;
+  font-size: 8px;
+  font-weight: 800;
+  vertical-align: super;
+}
+
+.list-item-image1 {
+  background-image: url(/Items-1-product-1.png);
+}
+
+.list-item-image2 {
+  background-image: url(/Items-1-product-2.png);
+}
+
+.list-item-image3 {
+  background-image: url(/Items-1-product-3.png);
+}
+
+.list-item-image4 {
+  background-image: url(/Items-1-product-\ 4.png);
+}
+
+.product-name-and-price {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.product-name-text {
+  color: #1d1d1f;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.quick-links-header {
+  color: #1d1d1f;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.card-product-name-text {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.product-price-text {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-product-price-text {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.big-card {
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.medium-sized-card {
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.items2-product1 {
+  background-image: url(/Items-2-product-1.png);
+}
+
+.items3-product1 {
+  background-image: url(/3rdsection-image1.png);
+}
+
+.items4-product1 {
+  background-image: url(4thsection-image1.png);
+}
+
+.items4-product2 {
+  background-image: url(/4thsection-image2.png);
+}
+
+.items4-support3 {
+  background-image: url(/4thsection-image3.png);
+}
+
+.text-positioning {
+  position: absolute;
+  top: 53px;
+  left: 30px;
+  display: flex;
+  width: 200px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 9px;
+}
+
+.text-width {
+  width: 326px;
+}
+
+.items2-and-3-card {
+  padding: 71px 28px 32px 28px;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+  flex: 0 0 auto;
+}
+
+.card-image-sizing {
+  width: 230px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+}
+
+.items2-card-image-2 {
+  background-image: url(/Items-2-product-2.png);
+}
+
+.items2-card-image-3 {
+  background-image: url(/Items-2-product-3.png);
+}
+
+.items2-card-image-4 {
+  background-image: url(/Items-2-product-4.png);
+}
+
+.color-choice {
+  display: flex;
+  padding: 25px 0px 21px 0px;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.circle-sizing {
+  height: 12px;
+  width: 12px;
+  background-size: cover;
+  background-position: center;
+}
+
+.circle-color1 {
+  background-image: url(/Airpods-1st-coral.png);
+}
+.circle-color2 {
+  background-image: url(/Airpods-2nd-purple.png);
+}
+.circle-color3 {
+  background-image: url(/Airpods-3rd-black.png);
+}
+.circle-color4 {
+  background-image: url(/Airpods-4th-starlight.png);
+}
+.circle-color5 {
+  background-image: url(/Airpods-5th-copper.png);
+}
+
+.card-text-general-alignment {
+  display: flex;
+  width: 257px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.card-text-upper-part {
+  display: flex;
+  height: 61px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+}
+
+.items3-card-image2 {
+  background-image: url(/3rdsection-image2.png);
+}
+
+.items3-card-image3 {
+  background-image: url(/3rdsection-image3.png);
+}
+
+.items3-card-image4 {
+  background-image: url(/3rdsection-image4.png);
+}
+
+.items3-card-image5 {
+  background-image: url(/3rdsection-image5.png);
+}
+
+.iPhone16-circle1 {
+  background-image: url(/iPhone16-first-color.jpg);
+}
+
+.iPhone16-circle2 {
+  background-image: url(/iPhone16-second-color.jpg);
+}
+
+.iPhone16-circle3 {
+  background-image: url(/iPhone16-third-color.jpg);
+}
+
+.iPhone16-circle4 {
+  background-image: url(/iPhone16-fourth-color.jpg);
+}
+
+.iPhone16-circle5 {
+  background-image: url(/iPhone16-fifth-color.jpg);
+}
+
+.iPhone16-circle6 {
+  background-image: url(/iPhone16-sixth-color.jpg);
+}
+
+.HomePod-circle1 {
+  background-image: url(/HomePod-1stcolor.jpg);
+}
+
+.HomePod-circle2 {
+  background-image: url(/HomePod-2ndcolor.jpg);
+}
+
+.HomePod-circle3 {
+  background-image: url(/HomePod-3rdcolor.jpg);
+}
+
+.HomePod-circle4 {
+  background-image: url(/HomePod-4thcolor.jpg);
+}
+
+.HomePod-circle5 {
+  background-image: url(/HomePod-5thcolor.jpg);
+}
+
+.Folio-circle1 {
+  background-image: url(/Folio-1stcolor.jpg);
+}
+
+.Folio-circle2 {
+  background-image: url(/Folio-2ndcolor.jpg);
+}
+
+.Folio-circle3 {
+  background-image: url(/Folio-3rdcolor.jpg);
+}
+
+.Folio-circle4 {
+  background-image: url(/Folio-4thcolor.jpg);
+}
+
+.BeatsSolo-circle1 {
+  background-image: url(/BeatsSolo-1stcolor.jpg);
+}
+
+.BeatsSolo-circle2 {
+  background-image: url(/BeatsSolo-2ndcolor.jpg);
+}
+
+.BeatsSolo-circle3 {
+  background-image: url(/BeatsSolo-3rdcolor.jpg);
+}
+
+.column-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-of-4thsection {
+  width: 313px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.box-text {
+  color: #1d1d1f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.box-text-width {
+  width: 238px;
+}
+
+.box-text-width2 {
+  width: 225.89px;
+}
+
+.another-heading {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.description-text {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.items5-image1 {
+  background-image: url(/5thsection-image1.png);
+}
+
+.items5-image2 {
+  background-image: url(/5thsection-image2.png);
+}
+
+.items5-image3 {
+  background-image: url(/5thsection-image3.png);
+}
+
+.items5-image4 {
+  background-image: url(/5thsection-image4.png);
+}
+
+.description-text-width {
+  width: 259px;
+}
+
+.description-text-width-320px {
+  width: 320px;
+}
+
+.text-width-404px {
+  width: 404.03px !important;
+}
+
+.text-color-f5f5f7 {
+  color: #f5f5f7;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.another-symbol-size {
+  color: #fff;
+  font-size: 16.8px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.196px;
+  vertical-align: super;
+}
+
+.items6-image1 {
+  background-image: url(/6thsection-image1.png);
+}
+
+.items6-image2 {
+  background-image: url(/6thsection-image2.png);
+}
+
+.items6-image3 {
+  background-image: url(/6thsection-image3.png);
+}
+
+.items6-image4 {
+  background-image: url(/6thsection-image4.png);
+}
+
+.items6-image5 {
+  background-image: url(/6thsection-image5.png);
+}
+
+.darkmode-another-heading-color {
+  color: #86868b;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 140px 0 140px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.button {
+  padding: 10px 12px;
+  gap: 8px;
+  border-radius: 999px;
+  border: 1px solid #1d1d1f;
+}
+
+.link-icon-image {
+  height: 8px;
+  width: 8px;
+}
+
+.theblur {
+  height: 75px;
+  width: 100%;
+}
