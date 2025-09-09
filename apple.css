@@ -475,7 +475,7 @@
   }
 
   .bottom-scroll {
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .description {
@@ -802,15 +802,16 @@
   .desktop-gallery-section {
     display: flex !important;
     gap: 16px;
-    align-items: center;
+    width: 100vw;
   }
 
   .gallery-size {
     width: 417px;
     height: 236px;
-    background-size: cover;
-    background-position: center;
     display: flex;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
   }
 
   .gallery-contents {
@@ -825,11 +826,7 @@
     display: flex;
     height: 100%;
     width: 100%;
-  }
-
-  .gallery-image2-and-5-contents > img,
-  div {
-    padding-left: 15px;
+    align-items: center;
   }
 
   .gallery-gradient {
@@ -853,10 +850,21 @@
     background-image: url(/Desktop-gallery-image-1.png);
   }
 
-  .gallery-rectangle {
-    width: 417px;
-    height: 236px;
+  .gallery-image2 {
+    background-image: url(/Desktop-gallery-image-2.png);
+    margin-left: 20px;
+  }
+
+  .gallery-rectangle-color1 {
     background-color: #1b2632;
+    height: 100%;
+    width: 100%;
+  }
+
+  .gallery-rectangle-color2 {
+    background-color: #f2b184;
+    height: 100%;
+    width: 100%;
   }
 
   .gallery-image3 {
@@ -869,6 +877,7 @@
 
   .gallery-image5 {
     background-image: url(/Desktop-gallery-image-5.png);
+    margin-left: 20px;
   }
 
   .gallery-text {
@@ -876,7 +885,7 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -0.224px;
-    padding: 0 0 20px;
+    padding: 0 0 20px 15px;
   }
 
   .gallery-logo-padding {
